@@ -1,4 +1,9 @@
+
+
 const validation = (values) => {
+
+
+
     let errors = {}
 
     if(!values.name){
@@ -14,6 +19,7 @@ const validation = (values) => {
     } else if ( values.password.length >= 32){
         errors.password = "Password max 2 char"
     } 
+
 
     return errors;
 

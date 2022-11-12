@@ -1,6 +1,11 @@
 import React, { useEffect, useRef } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { useHistory } from "react-router-dom";
 
 const Change = () => {
+
+const history = useHistory();
 
 let videoRef = useRef(null);
 let  photoRef = useRef(null);
@@ -56,6 +61,10 @@ const clearImage = () => {
     ctx.clearRect(0,0,photo.width,photo.height)
 }
 
+const handleMove = () => {
+    history.push("/profile")
+    window.location.reload(false);
+}
 
 
 useEffect(() => {
@@ -65,8 +74,10 @@ useEffect(() => {
 return (
     <div>
         <div className="relative flex flex-col justify-center  overflow-hidden ">
-        <div className="w-full p-6 m-auto bg-blue-700 shadow-md lg:max-w-xl ">
-
+        <div className="w-full p-6 m-auto bg-blue-700 shadow-md lg:max-w-xl flex justify-between ">
+        <FontAwesomeIcon onClick={handleMove} className='' icon={faCircleArrowLeft} />
+        <h1 className='text-lg font-medium text-white'>Profile</h1>
+        <i class="fa-regular fa-user"></i>
         </div>
     </div>
 

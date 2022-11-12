@@ -1,9 +1,14 @@
 import React,{useState} from 'react'
 import {storage} from './firebase'
 import { ref,uploadBytes, getDownloadURL } from 'firebase/storage';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { useHistory } from "react-router-dom";
 
 
 const ProfileUpload = () => {
+
+const history = useHistory();
 
 const [image, setImage] = useState(null);
 const [url, setUrl] = useState(null)
@@ -33,12 +38,18 @@ const handleSubmit = () => {
     });
 };
 
+const handleMove = () => {
+    history.push("/profile")
+    window.location.reload(false);
+}
 
 return (
     <div > 
         <div className="relative flex flex-col justify-center  overflow-hidden ">
-        <div className="w-full p-6 m-auto bg-blue-700 shadow-md lg:max-w-xl ">
-        
+        <div className="w-full p-6 m-auto bg-blue-700 shadow-md lg:max-w-xl flex justify-between ">
+        <FontAwesomeIcon className='' onClick={handleMove} icon={faCircleArrowLeft} />
+        <h1 className='text-lg font-medium text-white'>Profile</h1>
+        <i class="fa-regular fa-user"></i>
         </div>
     </div>
 
