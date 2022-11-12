@@ -52,7 +52,7 @@ const handleMoveC = () => {
         <div className="relative flex flex-col justify-center min-h-4/6 overflow-hidden my-5">
           <h1 className=' w-full p-6 m-auto rounded-md  lg:max-w-xl'>Logic Test</h1>
         <div className="w-full p-6 m-auto bg-blue-700 rounded-md shadow-md lg:max-w-xl flex justify-center text-white ">
-        <a target="_blank" className='font-medium' href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies">Soal 1</a>
+        <a target="_blank" className='font-medium' href="https://github.com/Dimwahyu15/training-js">Soal 1</a>
         </div>
         </div>
 
