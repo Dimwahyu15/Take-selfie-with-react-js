@@ -21,10 +21,8 @@ const handleMoveC = () => {
   return (
     <div className="container">
       <div className="relative flex flex-col justify-center  overflow-hidden ">
-        <div className="w-full p-6 m-auto bg-blue-700 shadow-md lg:max-w-xl flex justify-between">
-        <FontAwesomeIcon className='' icon={faCircleArrowLeft} />
+        <div className="w-full p-6 m-auto bg-blue-700 shadow-md lg:max-w-xl flex justify-center">
         <h1 className='text-lg font-medium text-white'>Profile</h1>
-        <i class="fa-regular fa-user"></i>
         </div>
       </div>
 
@@ -52,7 +50,7 @@ const handleMoveC = () => {
         <div className="relative flex flex-col justify-center min-h-4/6 overflow-hidden my-5">
           <h1 className=' w-full p-6 m-auto rounded-md  lg:max-w-xl'>Logic Test</h1>
         <div className="w-full p-6 m-auto bg-blue-700 rounded-md shadow-md lg:max-w-xl flex justify-center text-white ">
-        <a target="_blank" className='font-medium' href="https://github.com/Dimwahyu15/training-js">Soal 1</a>
+        <a target="_blank" className='font-medium' href="https://github.com/Dimwahyu15/training-js">Javascript</a>
         </div>
         </div>
 
