@@ -56,24 +56,6 @@ const handleMoveC = () => {
         </div>
         </div>
 
-        <div className="relative flex flex-col justify-center min-h-4/6 overflow-hidden my-5">
-        <div className="w-full p-6 m-auto bg-blue-700 rounded-md shadow-md lg:max-w-xl flex justify-center text-white">
-        <a target="_blank" className='font-medium'  href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies">Soal 2</a>
-        </div>
-        </div>
-
-        <div className="relative flex flex-col justify-center min-h-4/6 overflow-hidden my-5">
-        <div className="w-full p-6 m-auto bg-blue-700 rounded-md shadow-md lg:max-w-xl flex justify-center text-white ">
-        <a target="_blank" className='font-medium'  href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies">Soal 3</a>
-        </div>
-        </div>
-
-        <div className="relative flex flex-col justify-center min-h-4/6 overflow-hidden my-5">
-        <div className="w-full p-6 m-auto bg-blue-700 rounded-md shadow-md lg:max-w-xl flex justify-center text-white">
-        <a target="_blank" className='font-medium'  href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies">Soal 4</a>
-        </div>
-        </div>
-
       
     </div>
 
